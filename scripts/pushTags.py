@@ -5,9 +5,6 @@ import os
 from enum import Enum
 from argparse import ArgumentParser
 
-# TODO: Move it into separate project
-# TODO: Push to github
-
 MASTER_PATTERN = "v(\d+\.)?(\d+\.)?(\*|\d+)$"
 CANDIDATE_PATTERN = "v(\d+\.)?(\d+\.)?(\*|\d+)-rc\.\d+$"
 
